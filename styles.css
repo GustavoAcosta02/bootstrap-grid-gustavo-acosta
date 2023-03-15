@@ -1,0 +1,45 @@
+.container-fluid{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100;
+    align-items: stretch;
+}
+.first-col{
+    background-color: gray;
+}
+.first-col-list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+}
+p1{
+    color: white;
+    font-weight: bold;
+}
+.second-col{
+background-color: tomato;
+}
+.search-bar{
+    padding-top: 20px;
+}
+.btn{
+    background-color: rgb(231, 46, 46);
+    color: black;
+    border-color: black;
+    
+}
+.btn:hover{
+    background-color: rgb(254, 29, 29);
+    color:black;
+    border-color: black;
+}
+.second-col-list{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+.third-col{
+    background-color: red;
+}
