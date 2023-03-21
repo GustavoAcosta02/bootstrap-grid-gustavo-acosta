@@ -1,11 +1,16 @@
-.container-fluid{
-    display: flex;
-    min-height: 100vh;
-    min-width: 100;
-    align-items: stretch;
+.mb-0{
+    color: #9447AE;
 }
 .first-col{
-    background-color: gray;
+    background-color: #B67DCA;
+    min-height: 100vh;
+    min-width: 100;
+}
+.btn-secondary{
+    margin-top: 20px;
+    margin-left: 20px;
+    min-width: 200px;
+    min-height: 60px;
 }
 .first-col-list{
     display: flex;
@@ -13,24 +18,49 @@
     gap: 50px;
     padding-top: 50px;
 }
+.inbox{
+    background-color: #AE6EC4;
+    border-color:#AE6EC4;
+    color:black;
+}
+.drafts{
+    background-color: #B67DCA;
+    border-color:#B67DCA;
+    color:black;
+}
+.sent{
+    background-color: #B67DCA;
+    border-color:#B67DCA;
+    color:black;
+}
+.deleted{
+    background-color: #B67DCA;
+    border-color:#B67DCA;
+    color:black;
+}
+.junk{
+    background-color: #B67DCA;
+    border-color:#B67DCA;
+    color:black;
+}
 p1{
     color: white;
     font-weight: bold;
 }
 .second-col{
-background-color: tomato;
+background-color: #AE6EC4;
 }
 .search-bar{
     padding-top: 20px;
 }
 .btn{
-    background-color: rgb(231, 46, 46);
+    background-color: #A560BE;
     color: black;
     border-color: black;
     
 }
 .btn:hover{
-    background-color: rgb(254, 29, 29);
+    background-color: #2C8CE1;
     color:black;
     border-color: black;
 }
@@ -40,6 +70,45 @@ background-color: tomato;
     gap: 30px;
     padding-top: 50px;
 }
+h5{
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    
+}
+.jeff{
+    background-color: #AE6EC4;
+    border-color:#AE6EC4;
+    color:black;
+}
+.elon{
+    background-color: #AE6EC4;
+    border-color:#AE6EC4;
+    color:black;
+}
+.steve{
+    background-color: #AE6EC4;
+    border-color:#AE6EC4;
+    color:black;
+}
 .third-col{
-    background-color: red;
+    background-color: #A560BE;
+    min-height: 30vh;
+}
+p4{
+    font-size: 20px;
+}
+h2{
+    font-weight: bold;
+    margin-left: 20px;
+}
+p2{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.reply-area{
+    margin-top: 25px;
+}
+.cc-area{
+    margin-bottom: 20px;
 }
